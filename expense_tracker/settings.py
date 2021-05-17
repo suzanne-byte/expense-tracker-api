@@ -37,9 +37,9 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "rest_framework",
-    "unittest",
-    "restapi",
+    # "rest_framework",
+    # "unittest",
+    # "restapi",
 ]
 
 MIDDLEWARE = [
