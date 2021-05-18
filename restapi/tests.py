@@ -22,8 +22,8 @@ class TestModels(TestCase):
 
 class TestViews(TestCase):
     def setUp(self):
-        User.objects.create_user("testt1234", "testtuser@example.com", "test1234")
-        self.client.login(username="testt1234", password="test1234")
+        User.objects.create_user("test1234", "testtuser@example.com", "test1234")
+        self.client.login(username="test1234", password="test1234")
 
     def test_expense_create(self):
         payload = {

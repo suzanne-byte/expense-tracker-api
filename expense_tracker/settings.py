@@ -125,4 +125,4 @@ REST_FRAMEWORK = {
 
 TESTING = "test" in sys.argv[1:]
 if TESTING:
-    PASSWORD_HASHERS = ["django.contrib.auto.hashers.MD5Passwordhasher"]
+    PASSWORD_HASHERS = ["django.contrib.auth.hashers.MD5PasswordHasher"]
